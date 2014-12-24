@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">随信</string>
+    <string name="title_activity_home">随信</string>
+    <string name="title_section1_activity_home">日程</string>
+    <string name="title_section2_activity_home">发现</string>
+    <string name="title_section3_activity_home">通讯录</string>
+    <string name="title_section1_activity_calendar_views">日视图</string>
+    <string name="title_section2_activity_calendar_views">周视图</string>
+    <string name="title_section3_activity_calendar_views">全视图</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calendar_views">CalendarViewsActivity</string>
+
+</resources>

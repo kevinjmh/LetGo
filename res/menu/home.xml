@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.jiangmanhua.suixin.HomeActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Search">
+    </item>
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="always" 
+        android:title="add">
+     <menu>
+        <item
+            android:id="@+id/action_add_date"
+            android:title="添加日程"/>
+        <item
+            android:id="@+id/action_add_friend"
+            android:title="添加好友"/>
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
